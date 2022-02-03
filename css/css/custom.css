@@ -477,7 +477,7 @@ details {
 .language:hover .global {
   visibility: visible;
   opacity: 1;
-  left: 0;
+  left: 2px;
 }
 
 .ru img{
