@@ -6604,16 +6604,14 @@ button.bg-dark:focus {
   padding: 1.5rem !important; }
 
 .pt-4,
-.py-4 {
-  padding-top: 1.5rem !important; }
+
 
 .pr-4,
 .px-4 {
   padding-right: 1.5rem !important; }
 
 .pb-4,
-.py-4 {
-  padding-bottom: 1.5rem !important; }
+
 
 .pl-4,
 .px-4 {
@@ -7164,14 +7162,12 @@ button.bg-dark:focus {
   .p-md-5 {
     padding: 3rem !important; }
   .pt-md-5,
-  .py-md-5 {
-    padding-top: 3rem !important; }
+
   .pr-md-5,
   .px-md-5 {
     padding-right: 3rem !important; }
   .pb-md-5,
-  .py-md-5 {
-    padding-bottom: 3rem !important; }
+
   .pl-md-5,
   .px-md-5 {
     padding-left: 3rem !important; }

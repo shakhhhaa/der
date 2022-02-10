@@ -526,3 +526,405 @@ details {
 }
 
 
+*, *::after, *::before {
+  box-sizing: border-box;
+}
+
+.modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  transition: 200ms ease-in-out;
+  border: 1px solid black;
+  border-radius: 10px;
+  z-index: 10;
+  background-color: white;
+  width: 500px;
+  max-width: 80%;
+}
+
+.modal.active {
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.modal-header {
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-header .close-button {
+  cursor: pointer;
+  border: none;
+  outline: none;
+  background: none;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.modal-body {
+  padding: 10px 15px;
+}
+
+#overlay {
+  position: fixed;
+  opacity: 0;
+  transition: 200ms ease-in-out;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .5);
+  pointer-events: none;
+}
+
+#overlay.active {
+  opacity: 1;
+  pointer-events: all;
+}
+
+
+
+
+
+
+
+.doctors{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: auto;
+}
+
+.left-img img{
+  height: 600px;
+  width: 400px;
+}
+
+.information-doctor{
+  width: 600px;
+  height: 600px;
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+  background: #fff;
+  box-shadow: 2px 2px 2px rgb(226, 226, 226);
+}
+
+.name-sorname{
+  margin-bottom: 20px;
+}
+
+.name-sorname p{
+  line-height: 5px;
+}
+.zapis-na-priyom button:hover{
+  background: #28c6ff;
+  transition: .4s;
+}
+
+.zapis-na-priyom button{
+  width: 100%;
+  height: 80px;
+  padding: 15px 30px;
+  font-size: 20px;
+  color: #fff;
+  cursor: pointer;
+  background: #00bbff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px #2b9cc5;
+}
+
+.staj{
+  margin-bottom: 150px;
+}
+
+.staj span{
+  color: #000;
+  font-weight: 700;
+}
+
+
+.kratki-sms{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.napis button:hover{
+  background: #28c6ff;
+  transition: .4s;
+}
+
+.napis button{
+  width: 270px;
+  height: 80px;
+  padding: 10px 30px 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  background: #00bbff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px #2b9cc5;
+}
+.napis i{
+  margin-right: 10px;
+}
+.ostavit button:hover{
+  background: #28c6ff;
+  transition: .4s;
+}
+
+.ostavit button{
+  width: 270px;
+  height: 80px;
+  padding: 10px 30px 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  color: #fff;
+  background: #00bbff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 2px 2px 2px #2b9cc5;
+}
+
+.ostavit i{
+  margin-right: 10px;
+}
+
+.pr-doctor{
+  height: auto;
+  width: 100%;
+  background: #fff  ;
+  display: flex;
+  border: 1px solid #000;
+  justify-content: flex-end;
+  border-radius: 8px;
+}
+
+.left-i img{
+  width: 400px;
+  height: 650px;  
+  border-radius: 8px 0 0 8px ;
+}
+
+.in-profil{
+  margin-left: 20px;
+  text-align: left;
+}
+
+.name h1{
+  line-height: 30px;
+  font-weight: 500
+}
+
+.star{
+  display: flex;
+}
+
+.star p{
+  line-height: 15px;
+  margin-left: 5px;
+  font-weight: 600;
+}
+
+.star i{
+  color: #fbff00;
+  text-align: left;
+}
+
+.work-ish p{
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.medal p i{
+  color: #fbff00;
+  line-height: 8px;
+}
+
+.registation{
+  width: 100%;
+}
+.consult-title{
+  text-align: center;
+}
+.inner-registraition{
+  width: 80%;
+  margin: 0 auto;
+}
+.df{
+  display: flex;
+  gap: 20px;
+  margin-bottom: 20px;
+}
+
+.inner-registraition input{
+  outline: 0;
+  color: #000000;
+  border-radius: 10px;
+  border: 0;
+  opacity: .8;
+  background-color: #e5e5e5;
+  padding: 10px 15px;
+  border: 2px solid #283779;
+
+}
+.df input{
+  width: 50%;
+  
+}
+
+#date{
+  width: 100%;
+  color: #000000;
+  opacity: .5;
+}
+
+
+.radio{
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: capitalize;
+  display: inline-block;
+  vertical-align: middle;
+  color: #283779;
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;
+}
+
+.radio + .radio{
+  margin-left: 20px;
+}
+
+.radio input[type="radio"]{
+  display: none;
+}
+
+.radio span{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 3px solid #283779;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 7px;
+}
+
+.radio span::after{
+  content: "";
+  width: 8px;
+  height: 8px;
+  background: #283779;
+  display: block;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%) scale(0);
+  border-radius: 50%;
+  transition: 300ms ease-in-out 0s;
+}
+
+.radio input[type="radio"]:checked ~ span::after{
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.telefon input{
+  width: 100%;
+}
+
+.joylash{
+  background: none;
+  border: none;
+  color: #283779; 
+  cursor: pointer;
+
+}
+
+.onl-zps:hover{
+  background: #2e429b;
+  transition: .5s;
+}
+
+.onl-zps a:hover{
+  color: #fff;
+}
+
+.onl-zps a{
+  text-decoration: none;
+  color: #fff;
+}
+
+.onl-zps{
+    color: #fff;
+    background: red;
+    border: none;
+    width: auto;
+    height: auto;
+    padding: 10px 35px;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.tugad{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.yuborish button:hover{
+  background: #2e429b;
+  transition: .5s;
+}
+
+.yuborish button{
+    background: #283779;
+    width: 200px;
+    height: 53px;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 24px;
+    padding: 10px 40px
+}
+
+.cnst{
+  background: #2b9cc5;
+  color: #fff;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+.copp{
+  background: #fff;
+  box-shadow: 2px 2px 2px rgb(207, 207, 207);
+  margin-top: 30px;
+}
+
+.kich{
+  margin-bottom: 213px;
+}
+
+.otr{
+  margin-bottom: 240px;
+}
+.uhod{
+  margin-bottom: 240px;
+}
