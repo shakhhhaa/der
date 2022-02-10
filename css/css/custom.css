@@ -928,3 +928,62 @@ details {
 .uhod{
   margin-bottom: 240px;
 }
+
+.cardsss{
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.carddd{
+  width: 350px;
+  height: 450px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.img-cards img{
+  width: 350px;
+  height: 250px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.name_and_info:hover{
+  -webkit-box-shadow: 1px 2px 43px -1px rgba(28, 130, 208, 0.21) inset;
+  -moz-box-shadow: 1px 2px 43px -1px rgba(28, 130, 208, 0.21) inset;
+  box-shadow: 1px 2px 43px -1px rgba(18, 114, 187, 0.21) inset;
+  transition: .5s;
+}
+.img-cards {
+  width: 350px;
+  height: 250px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.name_and_info{
+  width: 350px;
+  height: 200px;
+  padding: 5px;
+  display: flex;
+  justify-content: center;
+  background: #fff;
+  border-radius: 8px;
+  border: 2px solid #24A1CD;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+  border-top: 0px;
+}
+
+.name_and_info h2{
+  font-size: 20px;
+  color: #2b9cc5;
+  font-weight: 500;
+}
