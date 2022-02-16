@@ -1372,5 +1372,8 @@ transform: rotateZ(0deg);
 
 
 
-
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link{
+    font-size: 13px !important;
+    padding-left: 0 !important;
+}
 
