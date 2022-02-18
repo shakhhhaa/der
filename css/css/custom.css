@@ -1377,3 +1377,22 @@ transform: rotateZ(0deg);
     padding-left: 0 !important;
 }
 
+
+
+
+
+.img-pervi{
+  width: 500px; 
+  margin-bottom: 40px;
+}
+
+.text-document{
+  width: 65%;
+}
+
+.img-document{
+  width: 25%;
+}
+.document{
+  display: flex;
+}

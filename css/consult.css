@@ -1,0 +1,249 @@
+/*----------     Consult part     ----------*/
+.consult-container{
+    width: 85.5%;
+    margin: 0 auto;
+  }
+  .inner-consult{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 ;
+  }
+  .main-special{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 66.66667%;
+    padding: 0 20px;
+    grid-gap: 10px;
+  }
+  @media(max-width:1024px){
+    .main-special{
+      width: 55%;
+      grid-template-columns: 1fr;
+      padding: 0 15px;
+    }
+    .consult-title{
+      font-size: 27px !important;
+    }
+  }
+  @media(max-width:500px){
+    .inner-consult{
+      flex-direction: column;
+    }
+    .consult-container{
+      width: 90.5%;
+    }
+    .main-special{
+      width: 100%;
+      padding: 0;
+      margin-bottom: 20px;
+    }
+    .main-how-work{
+      width: 100% !important;
+    }
+    .consult-title{
+      font-size: 18px !important;
+    }
+    #topbar .social-links a{
+      padding-left: 0;
+      font-size: smaller;
+    }
+  }
+  .main-special>div{
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border-radius: 8px;
+  }
+  .consult-title{
+    border-bottom: 1px solid #1977cc;
+    padding-bottom: 6px;
+    color: #444;
+    display: block;
+    font-size: 32px;
+  }
+  .special{
+    display: flex;
+    color: #000;
+    font-size: 12px;
+    padding: 10px;
+    align-items: center;
+
+  }
+  .special-logo{
+    width:  48px;
+    height: 48px;
+    margin-right: 15px;
+  }
+  .special-logo img{
+    width: 100%;
+  }
+  .special-descr{
+    width: 100%;
+    position: relative;
+  }
+  .special-descr-info{
+    color: rgba(2,71,91,0.6);
+  }
+  .special-line{
+    color: #02475b;
+    padding: 10px 0 0;
+    font-size: 10px;
+    border-top: 1px solid rgba(2,71,91,0.3);
+    font-weight: 600;
+  }
+
+  .arror-right{
+    position: absolute;
+    top: 5px;
+    right: 0;
+    font-size: 12px;
+  }
+  .consult-type{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin:10px 0 30px 0;
+    font-size: 14px;
+  }
+  .consult-type img{
+    width: 44px;
+  }
+
+  .main-how-work{
+    width: 307px;
+    
+  }
+  .inner-how{
+    
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    padding: 15px;
+
+  }
+  .how-title{
+    font-size: 16px;
+  }
+  .ramka{
+    text-align: center;
+    padding: 10px;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    border-radius: 5px;
+    font-size: 12px;
+    color: rgb(2, 71, 91, 0.6);
+  }
+  .do-consult-list{
+    border-top: 1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;
+  }
+
+  .do-consult-list ul{list-style: none; padding: 0;}
+  .do-consult-list ul li{
+    color: #02475b99;
+    padding: 5px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+  .do-consult-list ul li img{
+    width: 20px;
+  }
+  .do-consult-list ul li p{
+    margin:auto 5px;
+  }
+
+  /*----------     Choose doctor part     ----------*/
+  .inner-consult-card{
+    display: flex;
+    gap: 20px;
+    padding-top: 15px;
+    flex-wrap: wrap;
+
+  }
+  .consult-card{
+    width: 30%;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    box-shadow: 0 2px 4px 0 rgb(0 0 0 / 20%);
+    overflow: hidden;
+
+  }
+
+  @media(max-width:1000px){
+    .consult-card{
+      width: 48%;
+    }
+  }
+  @media(max-width:780px){
+    .consult-card{
+      width: 100%;
+    }
+  }
+  .consult-card-image{
+    padding: 15px 15px 10px;
+    display: flex;
+  }
+  .consult-card-image div img{
+    width: 90px;
+    height: 100px;
+  }
+  .name-doctor{
+    font-size: 16px;
+  }
+  .doljnost{
+    color: #0087ba;
+    text-transform: uppercase;
+    font-size: 10px;
+    
+  }
+  .cf{
+    font-size: 12px;
+    color: #0087ba;
+    text-transform: uppercase;
+  }
+  .desc-co{
+    padding-left: 10px;
+  }
+  .desc-co p{
+    font-weight: 600;
+    margin: 0;
+  }
+
+  .pay{
+    color: #658F9B;
+    margin: 0;
+    font-size: 12px !important;
+    font-weight: 600;
+  }.pay span{
+    font-size: 15px;
+    display: block;
+    color: #0087BA;
+
+  }
+  .consult-lang{
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    gap: 10px;
+    padding:  0 10px;
+  }
+  .consult-lang img{
+    width: 14px;
+  }
+  .consult-lang p{
+    margin: 0;
+  }
+  .consult-book {
+    width: 100%;
+    text-align: center;
+  }
+ .consult-book a div:hover{
+    background-color:  #02475b;
+  }
+  .consult-book a div{
+    background-color: #5bbbc0;
+    width: 100%;
+    padding: 9px;
+    color: #e5f6f7;
+    transition: 0.5s ;
+  }
+
+  /*----------     Right Menu     ----------*/
+
